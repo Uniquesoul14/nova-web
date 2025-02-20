@@ -1,0 +1,42 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Sen", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.left_ {
+  background-color: rgb(23, 40, 58);
+  height: 100vh;
+}
+.right_ {
+  background-image: url("Images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.content_ {
+  padding: 20px;
+  padding-bottom: 15px;
+  border: 3px solid skyblue;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
+.btn_1 {
+  height: 40px;
+  width: 150px;
+  border-radius: 35px;
+}
+.col_1_content {
+  width: 400px;
+  padding: 0px;
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
